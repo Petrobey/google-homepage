@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<!-- The head contains information such as the title elements and descriptors-->
+    <meta content="This text is a description of the webpage." name="description">
+    <title>Google Homepage Replica</title>
+<!-- This links to the external CSS file-->
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+
+<body class="grid">
+    <!--id used to identify single element uses "#", class for multiple elements uses "."-->
+    <ul id="header-left" class="header"><!--create header/left/right/a/a:hover css-->
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+    </ul>
+    <ul id="header-right" class="header">
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li>
+            <a href="#"></a>
+            <img id="allapps" src="imgsrc/allapps.png"><!--create allapps/hover to black,remove underline css-->
+        </li>
+        <li id="signin_button"><!--create signin button css, blue button, remove underline-->
+            <a href="#">Sign In</a>
+        </li>
+    </ul>
+    <div id="main"><!--create main css. Grid positioning and appearance-->
+        <img id="logo" src="imgsrc/logo.png" alt="The Google logo."><!--create logo css-->
+        <input id="search" type="text"/>
+        <div id="search_buttons"><!--create css for align-->
+            <button class="search_buttons" type="button"><!--create css for buttons, applied to both-->
+                Google Search
+            </button>
+            <button class="search_buttons" type="button">
+                I'm Feeling Lucky
+            </button>
+        </div>
+    </div>
+    <ul id="footer-left" class="footer"><!--create footer class, left and right id-->
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">How Search Works</a></li>
+    </ul>
+    <ul id="footer-right" class="footer"><!--css-->
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</li>
+    </ul>
+</body>
+
+</html>
